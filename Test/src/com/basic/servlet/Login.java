@@ -43,7 +43,7 @@ public class Login extends HttpServlet {
 	private void processLogin(HttpServletRequest req, HttpServletResponse resp)
             throws IOException
     {
-        String username = req.getParameter("username");
+        String username = req.getParameter("username and");
         String password = req.getParameter("password");
 
         resp.setContentType("text/html");
